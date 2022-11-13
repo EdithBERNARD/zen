@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.bgimage{
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../image/stone-316225_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header{
+    margin: 20px auto;
+    font-family: 'Marhey', 'Arial Narrow', Arial, sans-serif;
+    color: #418076;
+   
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu{
+    font-family: 'Marhey', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    height: 80%;
+    width: 80%;
+    font-size: 3rem;
+    flex-direction: column;
+   
+}
+.ovale{
+    display: block;
+    background-color: #21403B ;
+    height: auto;
+    width: 30%;
+    border-radius: 15px;
+    text-align: center;
+    color: #75E6D5;
+    margin: 30px 30px;
+    padding:  20px auto;
+
+}
+.ovale p{ 
+    padding: 50px auto;
+
+}
